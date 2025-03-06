@@ -1,11 +1,17 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/fontalternative/saint-canard/font.css');
 
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+/*
+For reference, the color palette I'm using is here: https://colorhunt.co/palette/f2efe79acbd048a6a72973b2
+ */
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -84,26 +90,27 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		/* font-family: 'Source Sans Pro', sans-serif; */
+		font-family: 'Saint Canard';
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
+	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
+	}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		/* font-family: 'Source Sans Pro', sans-serif; */
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -128,14 +135,23 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		font-family: "Permanent Marker";
+		color: black;
+	}
+
+	textPath {
+		font-size: 2em;
+		font-family: "Permanent Marker";
+		color: black;
 	}
 
 		h2.alt {
-			color: #888;
+			/* color: #888; */
+			color: #000;
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: #000;
 			}
 
 	h3 {
@@ -148,6 +164,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 1em 0 0 0;
+			font-family: 'Saint Canard';
 		}
 
 	footer {
@@ -161,6 +178,7 @@ input, select, textarea {
 
 	em, i {
 		font-style: italic;
+		/* font-family: "Permanent Marker"; */
 	}
 
 	a {
@@ -200,6 +218,7 @@ input, select, textarea {
 		border-left: solid 0.5em #ddd;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
+		/* font-family: "Permanent Marker"; */
 	}
 
 	p, ul, ol, dl, table {
@@ -2204,6 +2223,17 @@ input, select, textarea {
 
 /* Main */
 
+	svg {
+		transform: rotate(0deg);
+	}
+
+	svg text {
+		text-anchor: middle;
+		fill: black;
+		font-size: 16px;
+		offset: 50%;
+	}
+
 	#main {
 		margin-left: 375px;
 	}
@@ -2218,8 +2248,9 @@ input, select, textarea {
 		}
 
 			#main > section.dark {
-				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				/* color: #ddd;
+				color: rgba(255, 255, 255, 0.75); */
+				color:#000
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -2247,12 +2278,14 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color: #6AD4DD;
+				/* background-image: url("../../images/banner.jpg"); */
+				
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				/* background-color: #f5fafa; */
+				background-color: #F8F6E3;
 			}
 
 			#main > section.three {
