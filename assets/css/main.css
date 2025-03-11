@@ -140,7 +140,7 @@ input, select, textarea {
 	}
 
 	textPath {
-		font-size: 2em;
+		font-size: 2.5em;
 		font-family: "Permanent Marker";
 		color: black;
 	}
@@ -163,7 +163,7 @@ input, select, textarea {
 	}
 
 		header > p {
-			margin: 1em 0 0 0;
+			margin: 0 0 0 0;
 			font-family: 'Saint Canard';
 		}
 
@@ -2622,6 +2622,9 @@ input, select, textarea {
 				font-size: 1.5em;
 				letter-spacing: 0;
 				font-weight: 300;
+			}
+			textPath {
+				font-size: 1.9em;
 			}
 
 			.container {
